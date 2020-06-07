@@ -1,0 +1,53 @@
+div.block {
+  height: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:green;
+}
+
+div.line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input{
+  width: 30vw;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  border-radius: 10px 0px 0px 10px;
+}
+
+button{
+  width: 5vw;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 15px;
+  border: 1px solid transparent;
+  border-radius: 0px 10px 10px 0px;
+}
+
+button:hover {
+  background-color: #345995;
+  color: white;
+}
+
+p{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  height: 3vw;
+  transition: all 100ms linear;
+  margin:2vw;
+}
+
+img:hover {
+  height:5vw;
+  margin:1vw;
+}
